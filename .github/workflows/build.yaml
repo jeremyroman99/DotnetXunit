@@ -82,6 +82,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"JeremyRoman99_Dotnet"  /o:"jeremyroman99 /d:sonar.login="3e01f1a3f4f01d89cd08f7a2c7c555ec8de20a17" /d:sonar.host.url="https://sonarcloud.io"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"JeremyRoman99_Dotnet"  /o:"jeremyroman99 /d:sonar.login="s" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build TestingApp/
-          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="3e01f1a3f4f01d89cd08f7a2c7c555ec8de20a17"
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
