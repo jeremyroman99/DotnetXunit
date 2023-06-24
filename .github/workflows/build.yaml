@@ -25,7 +25,7 @@ jobs:
         run: dotnet build TestingApp/ --configuration Release
 
       - name: Run tests
-        run: dotnet test --logger "trx;logfilename=test_results.trx" --collect:"XPlat Code Coverage"
+        run: dotnet test TestingApp.Test --logger "trx;logfilename=test_results.trx" --collect:"XPlat Code Coverage"
 
       - name: Check test results path
         run: cd TestingApp.Test&& cd TestResults && ls -la
@@ -87,4 +87,3 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
           
-
