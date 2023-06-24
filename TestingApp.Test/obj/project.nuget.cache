@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JeB2wIACNTvgxq8bZKOy4Q8cjX32kQ/yjaHfPuhTzy1B/vp6IAu0Fk/ULZp1BdXiDSe/BEFfQNVefC5A2gzCGg==",
+  "dgSpecHash": "SJBUws03ybW7xp7MpVXQv64+Scn7MTfV0LbZy0qhCrABmZ80CFWuDmn92oVAWwbO8H6N3+mD+HTexUmqklVbVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jeremy\\Univesidad\\NewTypes\\test\\NewTypesTests\\NewTypesTests.csproj",
+  "projectFilePath": "C:\\Users\\Jeremy\\Clases\\clases2\\TestingApp.Test\\NewTypesTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jeremy\\.nuget\\packages\\microsoft.codecoverage\\17.6.2\\microsoft.codecoverage.17.6.2.nupkg.sha512",
     "C:\\Users\\Jeremy\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.2\\microsoft.net.test.sdk.17.6.2.nupkg.sha512",
