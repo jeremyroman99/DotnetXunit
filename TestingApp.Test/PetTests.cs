@@ -16,7 +16,7 @@ public class PetTests
     [Fact]
     public void GatoTalkToOwnerReturnsMeow()
     {
-        string expected = "Meosw!";
+        string expected = "Meow!";
         string actual = new Gato().TalkToOwner();
 
         Assert.Equal(expected, actual);
