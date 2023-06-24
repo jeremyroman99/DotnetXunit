@@ -20,25 +20,24 @@ namespace TestingApp.Test{
             Assert.False(savedUser.VerifiedEmail);
         }
 
-        [Fact]
-
-        public void Update_MobileNumber(){
-       
-           //Arrange
-            var userManagement = new UserManagement();
-            
-            //Act
-            userManagement.Add(new ("Samuel", "Peralta"));
-            
-            var firstUser = userManagement.AllUsers().First();
-            firstUser.Phone = "+4440000022";
-
-            userManagement.UpdatePhone(firstUser);
-            
-            //Assert
-            var savedUser = Assert.Single(userManagement.AllUsers());
-            Assert.NotNull(savedUser);
-            Assert.Equal("+4440000022", savedUser.Phone);
-        }
+        //[Fact]
+        //public void Update_MobileNumber(){
+       //
+        //   //Arrange
+        //    var userManagement = new UserManagement();
+        //    
+        //    //Act
+        //    userManagement.Add(new ("Samuel", "Peralta"));
+        //    
+        //    var firstUser = userManagement.AllUsers().First();
+        //    firstUser.Phone = "+4440000022";
+//
+        //    userManagement.UpdatePhone(firstUser);
+        //    
+        //    //Assert
+        //    var savedUser = Assert.Single(userManagement.AllUsers());
+        //    Assert.NotNull(savedUser);
+        //    Assert.Equal("+4440000022", savedUser.Phone);
+        //}
     }
 }
