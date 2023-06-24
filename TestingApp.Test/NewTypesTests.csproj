@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/NewTypes/NewTypes.csproj"/>
+    <ProjectReference Include="../../TestingApp/NewTypes.csproj"/>
   </ItemGroup>
 
 </Project>
