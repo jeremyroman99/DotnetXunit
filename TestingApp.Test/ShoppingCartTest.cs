@@ -14,7 +14,7 @@ namespace TestingApp.Test{
             var shoppingCart = new ShoppingCart(_dbServiceMock.Object);
             
             //When
-            var product = new Product(1,"shoes",150);
+            var product = new Product(1,"shoesd",150);
             var result = shoppingCart.AddProduct(product);
 
             //Then
