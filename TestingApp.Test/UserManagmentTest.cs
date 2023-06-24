@@ -15,7 +15,7 @@ namespace TestingApp.Test{
             //Assert
             var savedUser = Assert.Single(userManagement.AllUsers());
             Assert.NotNull(savedUser); // checking that the user management list is not empty
-            Assert.Equal("Samuel", savedUser.UserName);
+            Assert.Equal("Samuels", savedUser.UserName);
             Assert.Equal("Peralta", savedUser.LastName);
             Assert.False(savedUser.VerifiedEmail);
         }
