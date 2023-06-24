@@ -85,3 +85,5 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"JeremyRoman99_DotnetXunit" /o:"jeremyroman99" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build TestingApp/
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
+          
