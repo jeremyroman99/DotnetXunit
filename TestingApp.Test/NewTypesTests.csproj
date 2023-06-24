@@ -14,5 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="../../TestingApp/NewTypes.csproj"/>
   </ItemGroup>
+  
 
 </Project>
