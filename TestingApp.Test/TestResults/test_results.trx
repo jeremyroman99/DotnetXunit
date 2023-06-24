@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0cb2473c-d12e-4e72-8b5e-7a26ed72f130" name="Jeremy@DESKTOP-5SNJK4M 2023-06-24 00:45:31" runUser="DESKTOP-5SNJK4M\Jeremy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-06-24T00:45:32.0032595-05:00" queuing="2023-06-24T00:45:32.0032599-05:00" start="2023-06-24T00:45:30.6833219-05:00" finish="2023-06-24T00:45:32.0084190-05:00" />
+  <TestSettings name="default" id="7c363776-8972-4508-8a46-c708eea5ae8e">
+    <Deployment runDeploymentRoot="Jeremy_DESKTOP-5SNJK4M_2023-06-24_00_45_31" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="429919be-027b-4eba-a771-252fcdbfe005" testId="64bcaeee-72d1-1241-dc81-2bd2e08dbe49" testName="PetTests.VacaTalkToOwnerReturnsMeow" computerName="DESKTOP-5SNJK4M" duration="00:00:00.0001070" startTime="2023-06-24T00:45:31.8854463-05:00" endTime="2023-06-24T00:45:31.8854464-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="429919be-027b-4eba-a771-252fcdbfe005" />
+    <UnitTestResult executionId="4075cf27-1c9b-467c-8ae5-460bac4cf04e" testId="104379be-08fe-13e4-986c-d556ba06f60e" testName="PetTests.GatoTalkToOwnerReturnsMeow" computerName="DESKTOP-5SNJK4M" duration="00:00:00.0024285" startTime="2023-06-24T00:45:31.8767518-05:00" endTime="2023-06-24T00:45:31.8767751-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4075cf27-1c9b-467c-8ae5-460bac4cf04e" />
+    <UnitTestResult executionId="64c93a72-18ad-432e-8fc1-fcb6b644ff68" testId="3b3daf9a-9394-39a2-7b74-8d0473e9f20d" testName="PetTests.PerroTalkToOwnerReturnsWoof" computerName="DESKTOP-5SNJK4M" duration="00:00:00.0001303" startTime="2023-06-24T00:45:31.8852243-05:00" endTime="2023-06-24T00:45:31.8852244-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64c93a72-18ad-432e-8fc1-fcb6b644ff68" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="PetTests.GatoTalkToOwnerReturnsMeow" storage="c:\users\jeremy\clases\clases2\testingapp.test\bin\debug\net6.0\newtypestests.dll" id="104379be-08fe-13e4-986c-d556ba06f60e">
+      <Execution id="4075cf27-1c9b-467c-8ae5-460bac4cf04e" />
+      <TestMethod codeBase="C:\Users\Jeremy\Clases\clases2\TestingApp.Test\bin\Debug\net6.0\NewTypesTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetTests" name="GatoTalkToOwnerReturnsMeow" />
+    </UnitTest>
+    <UnitTest name="PetTests.VacaTalkToOwnerReturnsMeow" storage="c:\users\jeremy\clases\clases2\testingapp.test\bin\debug\net6.0\newtypestests.dll" id="64bcaeee-72d1-1241-dc81-2bd2e08dbe49">
+      <Execution id="429919be-027b-4eba-a771-252fcdbfe005" />
+      <TestMethod codeBase="C:\Users\Jeremy\Clases\clases2\TestingApp.Test\bin\Debug\net6.0\NewTypesTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetTests" name="VacaTalkToOwnerReturnsMeow" />
+    </UnitTest>
+    <UnitTest name="PetTests.PerroTalkToOwnerReturnsWoof" storage="c:\users\jeremy\clases\clases2\testingapp.test\bin\debug\net6.0\newtypestests.dll" id="3b3daf9a-9394-39a2-7b74-8d0473e9f20d">
+      <Execution id="64c93a72-18ad-432e-8fc1-fcb6b644ff68" />
+      <TestMethod codeBase="C:\Users\Jeremy\Clases\clases2\TestingApp.Test\bin\Debug\net6.0\NewTypesTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetTests" name="PerroTalkToOwnerReturnsWoof" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="64bcaeee-72d1-1241-dc81-2bd2e08dbe49" executionId="429919be-027b-4eba-a771-252fcdbfe005" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="104379be-08fe-13e4-986c-d556ba06f60e" executionId="4075cf27-1c9b-467c-8ae5-460bac4cf04e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b3daf9a-9394-39a2-7b74-8d0473e9f20d" executionId="64c93a72-18ad-432e-8fc1-fcb6b644ff68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.7)&#xD;
+[xUnit.net 00:00:00.38]   Discovering: NewTypesTests&#xD;
+[xUnit.net 00:00:00.41]   Discovered:  NewTypesTests&#xD;
+[xUnit.net 00:00:00.42]   Starting:    NewTypesTests&#xD;
+[xUnit.net 00:00:00.48]   Finished:    NewTypesTests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-5SNJK4M" outcome="Warning" timestamp="2023-06-24T00:45:30.9938407-05:00">
+        <Text>Recopilación de datos: No se encuentra ningún objeto datacollector con el nombre descriptivo "XPlat Code Coverage".</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-5SNJK4M" outcome="Warning" timestamp="2023-06-24T00:45:30.9957846-05:00">
+        <Text>Recopilación de datos: No se pudo encontrar el recopilador de datos "XPlat Code Coverage"</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
